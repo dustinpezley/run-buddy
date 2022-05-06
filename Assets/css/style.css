@@ -52,6 +52,7 @@ header nav {
 
 header nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -543,6 +544,10 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    header nav ul li a{
+        justify-items: center;
+    }
+
     .hero-form button {
         width: 100%;
     }
